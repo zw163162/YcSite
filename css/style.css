@@ -83,7 +83,7 @@ border-left: 1px solid #eaeaea;
 #right2 .blk_t, #right2 .contenttitle, #right2 .art_list_title { height:35px; line-height:35px; font-size:12px; color:#fff; text-indent:15px; background:url(../images/airconditioning_18.jpg) no-repeat; overflow:hidden; font-family:"Microsoft Yahei", "华文细黑", "黑体", "宋体", Arial; }
 /*--底部--*/
 .footermain { background:#76a410; width:980px; margin:0 auto;}
-#footer { clear:both; color:#fff; background-image:url(../images/bottombg.jpg); line-height:1.5em; text-align:center;}
+#footer { clear:both; color:#ececec; background-image:url(../images/bottombg.jpg); line-height:1.5em; text-align:center;}
 #footer .list_bot { display:none; }
 #footer a, #footer a:visited { color:#000; }
 .copyright { padding:10px;}
@@ -354,3 +354,7 @@ input.add_to_cart_b_view { background:none; margin:0; padding:0; border:0; font-
 .lngbar_select {border:1px solid #324e2f;padding:0 3px;cursor:pointer;padding-right:20px;background:#FFF url(../../../images/down.gif) no-repeat right center;} 
 .lngbar_option {border-left:1px solid #324e2f;border-right:1px solid #324e2f;border-bottom:1px solid #324e2f;padding:3px;background-color:#FFF;z-index:1000;position:absolute;display:none;} 
 .lngbar_option a {display:inline-block;width:100%; color:#fff;}
+
+
+/****************************************************/
+.mt10 {margin-top: 10px;}

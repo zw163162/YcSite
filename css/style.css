@@ -83,7 +83,7 @@ border-left: 1px solid #eaeaea;
 #right2 .blk_t, #right2 .contenttitle, #right2 .art_list_title { height:35px; line-height:35px; font-size:12px; color:#fff; text-indent:15px; background:url(../images/airconditioning_18.jpg) no-repeat; overflow:hidden; font-family:"Microsoft Yahei", "华文细黑", "黑体", "宋体", Arial; }
 /*--底部--*/
 .footermain { background:#76a410; width:980px; margin:0 auto;}
-#footer { clear:both; color:#fff; line-height:1.5em; text-align:center;}
+#footer { clear:both; color:#fff; background-image:url(../images/bottombg.jpg); line-height:1.5em; text-align:center;}
 #footer .list_bot { display:none; }
 #footer a, #footer a:visited { color:#000; }
 .copyright { padding:10px;}

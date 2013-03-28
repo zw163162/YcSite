@@ -173,7 +173,7 @@ a img { border:0px; }
 .prod_type { padding-top:4px; }
 .prod_type ul { width:90%; margin:0 auto; float:none; }
 .prod_type ul li { padding-bottom:4px; margin-bottom:5px; border-bottom:#8B9CBD 1px dashed; text-indent:20px; }
-.prod_type ul li a { display:block; height:25px; line-height:25px; background-image:url(../images/airconditioning_029.gif); background-position:5px 6px; background-repeat:no-repeat; }
+.prod_type ul li a { display:block; height:25px; line-height:25px; background-image:url(../images/d2.gif); background-position:5px 6px; background-repeat:no-repeat; }
 .prod_type ul li a:visited { }
 .prod_type ul li a:hover, .prod_type ul li.act a { }
 .prod_type ul ul { display:none; }

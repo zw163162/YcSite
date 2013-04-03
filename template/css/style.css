@@ -173,7 +173,7 @@ a img { border:0px; }
 .prod_type { padding-top:4px; }
 .prod_type ul { width:90%; margin:0 auto; float:none; }
 .prod_type ul li { padding-bottom:4px; margin-bottom:5px; border-bottom:#8B9CBD 1px dashed; text-indent:20px; }
-.prod_type ul li a { display:block; height:25px; line-height:25px; background-image:url(../images/airconditioning_029.gif); background-position:5px 6px; background-repeat:no-repeat; }
+.prod_type ul li a { display:block; height:25px; line-height:25px; background-image:url(../images/d2.gif); background-position:5px 6px; background-repeat:no-repeat; }
 .prod_type ul li a:visited { }
 .prod_type ul li a:hover, .prod_type ul li.act a { }
 .prod_type ul ul { display:none; }
@@ -358,3 +358,56 @@ input.add_to_cart_b_view { background:none; margin:0; padding:0; border:0; font-
 
 /****************************************************/
 .mt10 {margin-top: 10px;}
+.mb10 {margin-bottom: 10px;}
+.mb20 {margin-bottom: 20px;}
+.lh {height: 30px;line-height: 30px;}
+.title4{background-image:url(../images/title4.jpg);padding-left: 20px;}
+.fenye {
+	text-align: center;
+	margin: 20px 0px;
+	padding: 6px;
+}
+.fenye a {
+	padding: 5px 8px;
+	border: 1px solid #ccc;
+	font-family: "ËÎÌו";
+	margin-left: 2px;
+	color: #555;
+}
+.fenye a:hover {
+	background: #f5f5f5;
+	color: #000;
+}
+.hr20{margin-bottom: 20px;}
+.bt {
+	text-align: center;
+	height: 48px;
+	line-height: 48px;
+}
+.lf {
+	float: left;
+}
+.rf {
+	float: right;
+}
+.hrm
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.news_con
+{
+	
+}
+.news_con li
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-image:url(../images/line.jpg);
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	padding-bottom: 8px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+}

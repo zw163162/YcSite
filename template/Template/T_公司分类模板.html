@@ -21,26 +21,27 @@
 </div>
 <div id="right">
   <div id="MODBLK_459" class="mod_block mb_yUEXlVss_block">
-    <h3 class="blk_t">
-      {Channel.Title}
-    </h3>
+    <h3 class="blk_t">公司简介</h3>
     <p class="mt10 mb10 title4">您现在的位置：<stl:location separator=">>"></stl:location></p>
     <hr class="hr20" />
     <div class="list_main">
       <div class="list_con">
-        <div>
-          <stl:if testType="ChannelName" testOperate="In" testValue="公司简介,关于我们">
-          	<stl:contents channelIndex="关于我们" groupContent="关于我们" totalNum="1">
-          		<stl:content type="Content"></stl:content>
-            </stl:contents>
-          </stl:if>
-          <stl:if testType="ChannelName" testOperate="Equals" testValue="联系我们">
-          	<stl:contents channelIndex="联系我们" groupContent="联系我们" totalNum="1">
-            	<stl:content type="Content"></stl:content>
-            </stl:contents>
-          </stl:if><stl:if testType="ChannelName" testOperate="Equals" testValue="用户留言">
-          	<stl:input inputName="留言" width="95%" ischeckcode="true"></stl:input>
-          </stl:if>
+        <div class="prod_list_con">
+        	<stl:pageContents pageNum="12" scope="All" order="AddDate">
+          		<div class="prod_list_list">
+            		<div class="prod_list_pic">
+                    	<stl:a title="{Content.Title}">
+                        	<stl:content type="ImageUrl"></stl:content>
+                        </stl:a>
+                    </div>
+            <div class="prod_list_name">
+            	<stl:a title="{Content.Title}">
+                	<stl:content type="Title" wordNum="8"></stl:content>
+                </stl:a>
+            </div>
+          </div>
+          </stl:pageContents>
+          <div class="blankbar"></div>
         </div>
       </div>
       <div class="list_bot"></div>

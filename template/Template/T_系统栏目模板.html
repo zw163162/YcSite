@@ -1,0 +1,62 @@
+<stl:include file="@/include/head.html"></stl:include>
+
+<div id="MODBLK_457" class="mod_block mb_30nT9yms_block">
+  <h3 class="blk_t">产品展示</h3>
+  <div class="list_main category">
+    <div class="prod_type">
+      <div id="pro_type_aieeKs">
+        <ul>
+          <stl:channels channelIndex="产品展示" groupChannel="产品展示" layout="None">
+          <li><stl:a></stl:a></li>
+          </stl:channels>
+          <div class="blankbar1"></div>
+        </ul>
+      </div>
+    </div>
+    <div class="list_bot"></div>
+  </div>
+  <div class="blankbar"></div>
+</div>
+<stl:include file="@/include/service.html"></stl:include>
+</div>
+<div id="right">
+  <div id="MODBLK_459" class="mod_block mb_yUEXlVss_block">
+    <h3 class="blk_t">{Channel.Title}</h3>
+    <p class="mt10 mb10 title4">您现在的位置：<stl:location separator=">>"></stl:location></p>
+    <hr class="hr20" />
+    <div class="list_main">
+      <div class="list_con">
+        <div class="prod_list_con">
+          <stl:pageContents pageNum="12" scope="All" order="AddDate">
+          		<div class="prod_list_list">
+            		<div class="prod_list_pic">
+                    	<stl:a title="{Content.Title}">
+                        	<stl:content type="ImageUrl"></stl:content>
+                        </stl:a>
+                    </div>
+            <div class="prod_list_name">
+            	<stl:a title="{Content.Title}">
+                	<stl:content type="Title" wordNum="8"></stl:content>
+                </stl:a>
+            </div>
+          </div>
+          </stl:pageContents>
+          <div class="blankbar"></div>
+        </div>
+      </div>
+      <div class="list_bot"></div>
+    </div>
+    <div class="blankbar"></div>
+  </div>
+  <div class="fenye"> <stl:pageItems> <stl:pageItem type="PreviousPage">
+    <stl:successTemplate><a href="{Current.Url}">上一页</a></stl:successTemplate>
+    <stl:failureTemplate><a href="{Current.Url}">上一页</a></stl:failureTemplate>
+    </stl:pageItem> <stl:pageItem type="PageNavigation">
+    <stl:successTemplate><a href="{Current.Url}">{Current.Num}</a></stl:successTemplate>
+    <stl:failureTemplate><a>{Current.Num}</a></stl:failureTemplate>
+    </stl:pageItem> <stl:pageItem type="NextPage">
+    <stl:successTemplate><a href="{Current.Url}">下一页</a></stl:successTemplate>
+    <stl:failureTemplate><a href="{Current.Url}">下一页</a></stl:failureTemplate>
+    </stl:pageItem> </stl:pageItems> </div>
+</div>
+<stl:include file="@/include/bottom.html"></stl:include> 

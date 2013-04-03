@@ -1,5 +1,51 @@
-<stl:include file="include/head.html"></stl:include>
-  <stl:include file="include/product_list.html"></stl:include>
-  <stl:include file="include/service.html"></stl:include>  
+<stl:include file="include/head.html"></stl:include><stl:include file="include/product_list.html"></stl:include><stl:include file="include/service.html"></stl:include>
+</div>
+
+<div id="right">
+  <div id="MODBLK_459" class="mod_block mb_yUEXlVss_block">
+    <h3 class="blk_t">公司简介</h3>
+    <div class="list_main">
+      <div class="list_con">
+        <div>
+          <stl:contents channelIndex="关于我们" groupChannel="关于我们" totalNum="1">
+          	<stl:content type="content" wordNum="480"></stl:content>
+          </stl:contents>
+        </div>
+        <div class="list_more">
+        	<stl:a channelIndex="公司简介">
+            	<img src="images/more_37.jpg" alt="更多..." title="查看详细信息..."border="0" />
+            </stl:a>
+        </div>
+      </div>
+      <div class="list_bot"></div>
     </div>
+    <div class="blankbar"></div>
+  </div>
+  <div id="MODBLK_462" class="mod_block mb_algOzkrh_block">
+    <h3 class="blk_t">最新产品</h3>
+    <div class="newprod">
+      <div class="newprod_top"></div>
+      <div class="newprod_con">
+        <div class="pro_over">
+          <div class="prod_list_con">
+          	<stl:contents channelIndex="产品展示" scope="All" totalNum="8" titleWordNum="8" layout="None" order="AddDate">
+            <div class="prod_list_list">
+              <div class="prod_list_pic"> <stl:a title="{Content.Title}"> <stl:content type="ImageUrl"></stl:content> </stl:a> </div>
+              <div class="prod_list_name"> <stl:a title="{Content.Title}"> <stl:content type="Title" wordNum="8"></stl:content> </stl:a> </div>
+            </div>
+            </stl:contents>
+            <div class="list_more">
+        	<stl:a channelIndex="产品展示">
+            	<img src="images/more_37.jpg" alt="更多..." title="查看全部产品..."border="0" />
+            </stl:a>
+        </div>
+            <div class="blankbar"></div>
+          </div>
+        </div>
+      </div>
+      <div class="list_bot"></div>
+    </div>
+    <div class="blankbar"></div>
+  </div>
+</div>
 <stl:include file="include/bottom.html"></stl:include>
